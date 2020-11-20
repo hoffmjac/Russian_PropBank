@@ -60,9 +60,9 @@
 9	убедил	убедить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
 10	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obj	9:obj	PBARG=11:PBArg_0
 11	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	9:xcomp	PBSENSE=делать.1
-12	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	11:obj	SpaceAfter=No
+12	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	11:obj	SpaceAfter=No|PBARG=11:PBArg_1
 13	,	,	PUNCT	_	_	15	punct	15:punct	_
-14	чего	что	PRON	_	Case=Gen	15	obl	15:obl	PBARG=11:PBArg_1
+14	чего	что	PRON	_	Case=Gen	15	obl	15:obl	_
 15	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	12:acl:relcl	_
 16	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	15:nsubj	_
 17	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	obl	15:obl	SpaceAfter=No
