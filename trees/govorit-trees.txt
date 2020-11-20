@@ -5,9 +5,9 @@
 3	излишне	излишний	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	0:root	_
 4	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj	3:csubj	PBSENSE=говорить.1
 5	о	о	ADP	_	_	6	case	6:case	_
-6	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	4:obl	SpaceAfter=No
+6	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	4:obl	SpaceAfter=No|PBARG=4:PBArg_3
 7	,	,	PUNCT	_	_	12	punct	12:punct	_
-8	что	что	SCONJ	_	_	12	mark	12:mark	PBARG=PBArg_1
+8	что	что	SCONJ	_	_	12	mark	12:mark	_
 9	все	весь	DET	_	Case=Nom|Number=Plur	10	det	10:det	_
 10	хозяйства	хозяйство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	12:nsubj	_
 11	не	не	PART	_	_	12	advmod	12:advmod	_
@@ -23,10 +23,10 @@
 # sent_id = newsYa_49.xml_13
 # text = Об этом говорится в сообщении государственного и военного руководства Югославии и Сербии, пять часов обсуждавших самый громкий шпионский скандал последнего времени.
 1	Об	о	ADP	_	_	2	case	2:case	_
-2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	3:obl	_
-3	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	3:obl	PBARG=3:PBArg_3
+3	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	PBSENSE=говорить.1
 4	в	в	ADP	_	_	5	case	5:case	_
-5	сообщении	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	3:obl	_
+5	сообщении	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	3:obl	PBARG=3:PBArg_0
 6	государственного	государственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	9:amod	_
 7	и	и	CCONJ	_	_	8	cc	8:cc	_
 8	военного	военный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	conj	6:conj	_
@@ -58,8 +58,8 @@
 8	"	"	PUNCT	_	_	5	punct	5:punct	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	11:punct	_
 10	-	-	PUNCT	_	_	11	punct	11:punct	_
-11	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	5:parataxis	_
-12	режиссер	режиссер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	11:nsubj	SpaceAfter=No
+11	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	5:parataxis	PBSENSE=говорить.1
+12	режиссер	режиссер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	11:nsubj	SpaceAfter=No|PBARG=11:PBArg_0
 13	.	.	PUNCT	_	_	5	punct	5:punct	_
 
 # sent_id = 2006Sluzhivoe_pravo.xml_183
