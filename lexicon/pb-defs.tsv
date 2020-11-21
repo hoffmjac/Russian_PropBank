@@ -11,3 +11,6 @@ base	number	description	note	description_ru	note_ru	link_original	link_wordnet	b
 говорить	2	accuse, tattle	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
 говорить	3	reveal	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
 говорить	4	(not) want to speak	говориться.04	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+видеть	1	see; perceive by sight, understanding, or experience	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+видеть	2	see, meet, date	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+видеть	3	discourse function	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
