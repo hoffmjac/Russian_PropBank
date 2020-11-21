@@ -1,0 +1,256 @@
+# sent_id = 2011Sverkhkorotkoe_vremya.xml_393
+# text = Ну и получили величину порядка 8 фемтосекунд.
+1	Ну	ну	PART	_	_	3	parataxis	3:parataxis	_
+2	и	и	CCONJ	_	_	3	cc	3:cc	_
+3	получили	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	PBSENSE=получить.1
+4	величину	величина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	3:obj	PBARG=3:PBArg_1
+5	порядка	порядка	ADP	_	_	7	case	7:case	_
+6	8	8	NUM	_	_	7	nummod	7:nummod	_
+7	фемтосекунд	фемтосекунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	4:nmod	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = 2011Banan.xml_20
+# text = "В России "получить банан" значит сплоховать, не пройти тест, не выполнить задание, не справиться, - подхватил Сорокин удачную, на его взгляд, трактовку ситуации.
+1	"	"	PUNCT	_	_	3	punct	3:punct	SpaceAfter=No
+2	В	в	ADP	_	_	3	case	3:case	_
+3	России	Россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	8:obl	_
+4	"	"	PUNCT	_	_	3	punct	3:punct	SpaceAfter=No
+5	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	8:csubj	PBSENSE=получить.1
+6	банан	банан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	5:obj	SpaceAfter=No|PBARG=PBArg_1
+7	"	"	PUNCT	_	_	5	punct	5:punct	_
+8	значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	сплоховать	сплоховать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	8:xcomp	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	12:punct	_
+11	не	не	PART	_	_	12	advmod	12:advmod	_
+12	пройти	пройти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	conj	9:conj	_
+13	тест	тест	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	12:obj	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	16:punct	_
+15	не	не	PART	_	_	16	advmod	16:advmod	_
+16	выполнить	выполнить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	conj	9:conj	_
+17	задание	задание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	16:obj	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	20:punct	_
+19	не	не	PART	_	_	20	advmod	20:advmod	_
+20	справиться	справиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	conj	9:conj	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	23:punct	_
+22	-	-	PUNCT	_	_	23	punct	23:punct	_
+23	подхватил	подхватить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	8:parataxis	_
+24	Сорокин	Сорокин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	23:nsubj	_
+25	удачную	удачный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	31:amod	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	29:punct	_
+27	на	на	ADP	_	_	29	case	29:case	_
+28	его	его	DET	_	_	29	det	29:det	_
+29	взгляд	взгляд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	parataxis	25:parataxis	SpaceAfter=No
+30	,	,	PUNCT	_	_	25	punct	25:punct	_
+31	трактовку	трактовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	23:obj	_
+32	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	31:nmod	SpaceAfter=No
+33	.	.	PUNCT	_	_	8	punct	8:punct	_
+
+# sent_id = uppsalaKorp_627.xml_32
+# text = Однако именно тогда у меня появилась идея получить металлы особой чистоты в процессах электролиза за счет введения в ванну дополнительной диафрагмы.
+1	Однако	однако	ADV	_	Degree=Pos	6	advmod	6:advmod	_
+2	именно	именно	PART	_	_	3	advmod	3:advmod	_
+3	тогда	тогда	ADV	_	Degree=Pos	6	advmod	6:advmod	_
+4	у	у	ADP	_	_	5	case	5:case	_
+5	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	6	obl	6:obl	_
+6	появилась	появиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	0:root	_
+7	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	PBARG=8:PBArg_0
+8	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	obl	7:obl	PBSENSE=получить.3
+9	металлы	металл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	8:obj	PBARG=8:PBArg_1
+10	особой	особый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	11:amod	_
+11	чистоты	чистота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	9:nmod	_
+12	в	в	ADP	_	_	13	case	13:case	_
+13	процессах	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	8:obl	_
+14	электролиза	электролиз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	13:nmod	_
+15	за	за	ADP	_	_	17	case	17:case	_
+16	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	fixed	15:fixed	_
+17	введения	введение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	8:obl	PBARG=8:PBArg_2
+18	в	в	ADP	_	_	19	case	19:case	_
+19	ванну	ванна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	nmod	17:nmod	_
+20	дополнительной	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	21:amod	_
+21	диафрагмы	диафрагма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	17:nmod	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	6:punct	_
+
+# sent_id = 2007Soldatiki.xml_6
+# text = Принцы и короли играли солдатиками из драгоценных металлов - например, в 1610 году Людовик XIII получил в подарок 300 серебряных фигурок работы немецкого ювелира Н. Рогера.
+1	Принцы	принц	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	4:nsubj	_
+2	и	и	CCONJ	_	_	3	cc	3:cc	_
+3	короли	король	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	1:conj	_
+4	играли	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	солдатиками	солдатик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	4:obl	_
+6	из	из	ADP	_	_	8	case	8:case	_
+7	драгоценных	драгоценный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	8:amod	_
+8	металлов	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod	_
+9	-	-	PUNCT	_	_	17	punct	17:punct	_
+10	например	например	ADV	_	Degree=Pos	17	parataxis	17:parataxis	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	10:punct	_
+12	в	в	ADP	_	_	14	case	14:case	_
+13	1610	1610	NUM	_	_	14	nummod	14:nummod	_
+14	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	17:obl	_
+15	Людовик	Людовик	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	17:nsubj	PBARG=17:PBArg_0
+16	XIII	xiii	NUM	_	_	15	nummod	15:nummod	_
+17	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	4:parataxis	PBSENSE=получить.1
+18	в	в	ADP	_	_	19	case	19:case	_
+19	подарок	подарок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	17:obl	_
+20	300	300	NUM	_	_	22	nummod	22:nummod	_
+21	серебряных	серебряный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	22:amod	_
+22	фигурок	фигурка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	17:obl	PBARG=17:PBArg_1
+23	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	22:nmod	_
+24	немецкого	немецкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	25:amod	_
+25	ювелира	ювелир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	23:nmod	_
+26	Н.	Н.	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	appos	25:appos	_
+27	Рогера	Рогер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	flat:name	26:flat:name	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = 2006Rentgen.xml_31
+# text = Измерение эффекта Допплера сделало возможным не только получить изображение кровотока в сосудах, но и оценить состояние сосудистой стенки.
+1	Измерение	измерение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	4:nsubj	PBARG=4:PBArg_0
+2	эффекта	эффект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	1:nmod	_
+3	Допплера	Допплер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	2:nmod	_
+4	сделало	делать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	PBSENSE=делать.3
+5	возможным	возможный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	obl	4:obl	PBARG=4:PBArg_2
+6	не	не	PART	_	_	7	advmod	7:advmod	_
+7	только	только	PART	_	_	8	advmod	8:advmod	_
+8	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	4:xcomp	PBSENSE=получить.3|PBARG=4:PBArg_1
+9	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	8:obj	PBARG=8:PBArg_1
+10	кровотока	кровоток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	9:nmod	_
+11	в	в	ADP	_	_	12	case	12:case	_
+12	сосудах	сосуд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	nmod	10:nmod	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	16:punct	_
+14	но	но	CCONJ	_	_	16	cc	16:cc	_
+15	и	и	PART	_	_	16	advmod	16:advmod	_
+16	оценить	оценить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	conj	8:conj	PBARG=4:PBArg_1
+17	состояние	состояние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	16:obj	_
+18	сосудистой	сосудистый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	19:amod	_
+19	стенки	стенка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	17:nmod	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = 2009Sdavaisya_kto_mozhet.xml_12
+# text = Получить комментарий из первых рук нам пока не удалось: в пресс-службе потребовали официального запроса.
+1	Получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	csubj	9:csubj	PBSENSE=получить.3
+2	комментарий	комментарий	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	1:obj	PBARG=1:PBArg_1
+3	из	из	ADP	_	_	5	case	5:case	_
+4	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	5:amod	_
+5	рук	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	obl	1:obl	PBARG=1:PBArg_2
+6	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	9	iobj	9:iobj	PBARG=1:PBArg_0
+7	пока	пока	ADV	_	Degree=Pos	9	advmod	9:advmod	_
+8	не	не	PART	_	_	9	advmod	9:advmod	_
+9	удалось	удаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	0:root	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	9:punct	_
+11	в	в	ADP	_	_	12	case	12:case	_
+12	пресс-службе	пресс-служба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	13:obl	_
+13	потребовали	требовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	9:parataxis	_
+14	официального	официальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	15:amod	_
+15	запроса	запрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	13:obl	SpaceAfter=No
+16	.	.	PUNCT	_	_	9	punct	9:punct	_
+
+# sent_id = 2013Nauka.xml_234
+# text = В последние столетия полученные этим способом знания позволили радикально изменить жизнь к лучшему (например, средний срок жизни почти удвоился).
+1	В	в	ADP	_	_	3	case	3:case	_
+2	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	3:amod	_
+3	столетия	столетие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obl	8:obl	_
+4	полученные	получить	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	7:acl	PBSENSE=получить.3
+5	этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing	6	det	6:det	_
+6	способом	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	4:obl	PBARG=4:PBArg_2
+7	знания	знание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	8:nsubj	PBARG=4:PBArg_1
+8	позволили	позволить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	радикально	радикально	ADV	_	Degree=Pos	10	advmod	10:advmod	_
+10	изменить	изменить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	8:xcomp	_
+11	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	10:obj	_
+12	к	к	ADP	_	_	13	case	13:case	_
+13	лучшему	лучший	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	obl	10:obl	_
+14	(	(	PUNCT	_	_	21	punct	21:punct	SpaceAfter=No
+15	например	например	ADV	_	Degree=Pos	21	advmod	21:advmod	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	15:punct	_
+17	средний	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	18:amod	_
+18	срок	срок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	21:nsubj	_
+19	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	18:nmod	_
+20	почти	почти	ADV	_	Degree=Pos	21	advmod	21:advmod	_
+21	удвоился	удвоиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	10	parataxis	10:parataxis	SpaceAfter=No
+22	)	)	PUNCT	_	_	21	punct	21:punct	SpaceAfter=No
+23	.	.	PUNCT	_	_	8	punct	8:punct	_
+
+# sent_id = newsYa_55.xml_10
+# text = Для возобновления производства управляющие верфи пытаются получить кредит в $40 млн.
+1	Для	для	ADP	_	_	2	case	2:case	_
+2	возобновления	возобновление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	6:obl	_
+3	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	2:nmod	_
+4	управляющие	управлять	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	5:amod	PBARG=7:PBArg_0
+5	верфи	верфь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	6:nsubj	_
+6	пытаются	пытаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	0:root	_
+7	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	6:xcomp	PBSENSE=получить.1
+8	кредит	кредит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	7:obj	PBARG=7:PBArg_1
+9	в	в	ADP	_	_	12	case	12:case	_
+10	$	$	SYM	_	_	12	nmod	12:nmod	SpaceAfter=No
+11	40	40	NUM	_	_	12	nummod	12:nummod	_
+12	млн	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	8:nmod	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	6:punct	_
+
+# sent_id = uppsalaKorp_605.xml_42
+# text = Вслед за Москвой и Ленинградом подобные сооружения получат Киев, Ташкент, Сочи, Омск, Новосибирск, несмотря на трудности их создания в больших, давно застроенных городах.
+1	Вслед	вслед	ADV	_	Degree=Pos	8	advmod	8:advmod	_
+2	за	за	ADP	_	_	3	case	3:case	_
+3	Москвой	Москва	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl	1:obl	_
+4	и	и	CCONJ	_	_	5	cc	5:cc	_
+5	Ленинградом	Ленинград	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	conj	3:conj	_
+6	подобные	подобный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	7:amod	_
+7	сооружения	сооружение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	8:obj	PBARG=8:PBArg_1
+8	получат	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	PBSENSE=получить.1
+9	Киев	Киев	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	8:nsubj	SpaceAfter=No|PBARG=8:PBArg_0
+10	,	,	PUNCT	_	_	11	punct	11:punct	_
+11	Ташкент	Ташкент	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	9:conj	SpaceAfter=No|PBARG=8:PBArg_0
+12	,	,	PUNCT	_	_	13	punct	13:punct	_
+13	Сочи	Сочи	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	9:conj	SpaceAfter=No|PBARG=8:PBArg_0
+14	,	,	PUNCT	_	_	15	punct	15:punct	_
+15	Омск	Омск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	9:conj	SpaceAfter=No|PBARG=8:PBArg_0
+16	,	,	PUNCT	_	_	17	punct	17:punct	_
+17	Новосибирск	Новосибирск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	9:conj	SpaceAfter=No|PBARG=8:PBArg_0
+18	,	,	PUNCT	_	_	21	punct	21:punct	_
+19	несмотря	несмотря	ADV	_	Polarity=Neg	21	case	21:case	_
+20	на	на	ADP	_	_	19	fixed	19:fixed	_
+21	трудности	трудность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obl	8:obl	_
+22	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	23	nmod	23:nmod	_
+23	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	21:nmod	_
+24	в	в	ADP	_	_	29	case	29:case	_
+25	больших	большой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	29	amod	29:amod	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	25:punct	_
+27	давно	давно	ADV	_	Degree=Pos	28	advmod	28:advmod	_
+28	застроенных	застроить	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	29	acl	29:acl	_
+29	городах	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	23	nmod	23:nmod	SpaceAfter=No
+30	.	.	PUNCT	_	_	8	punct	8:punct	_
+
+# sent_id = 2006Rentgen.xml_44
+# text = Впрочем, получить "картинку" можно и другими способами: методом компьютерной томографии (КТ), магнитно-резонансной томографии (МРТ) и позитронно-эмиссионной томографии (ПЭТ).
+1	Впрочем	впрочем	ADV	_	Degree=Pos	7	parataxis	7:parataxis	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	1:punct	_
+3	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	csubj	7:csubj	PBSENSE=получить.3
+4	"	"	PUNCT	_	_	5	punct	5:punct	SpaceAfter=No
+5	картинку	картинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	3:obj	SpaceAfter=No|PBARG=3:PBArg_1
+6	"	"	PUNCT	_	_	5	punct	5:punct	_
+7	можно	можно	ADV	_	Degree=Pos	0	root	0:root	_
+8	и	и	PART	_	_	9	advmod	9:advmod	_
+9	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	10:amod	_
+10	способами	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	3:obl	SpaceAfter=No|PBARG=3:PBArg_2
+11	:	:	PUNCT	_	_	10	punct	10:punct	_
+12	методом	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	parataxis	10:parataxis	_
+13	компьютерной	компьютерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	14:amod	_
+14	томографии	томография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	12:nmod	_
+15	(	(	PUNCT	_	_	16	punct	16:punct	SpaceAfter=No
+16	КТ	КТ	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	appos	14:appos	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	16:punct	SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	22:punct	_
+19	магнитно	магнитный	ADJ	_	Degree=Pos	21	compound	21:compound	SpaceAfter=No
+20	-	-	PUNCT	_	_	19	punct	19:punct	SpaceAfter=No
+21	резонансной	резонансный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	22:amod	_
+22	томографии	томография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	14:conj	_
+23	(	(	PUNCT	_	_	24	punct	24:punct	SpaceAfter=No
+24	МРТ	мрт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	appos	22:appos	SpaceAfter=No
+25	)	)	PUNCT	_	_	24	punct	24:punct	_
+26	и	и	CCONJ	_	_	30	cc	30:cc	_
+27	позитронно	позитронный	ADJ	_	Degree=Pos	29	compound	29:compound	SpaceAfter=No
+28	-	-	PUNCT	_	_	27	punct	27:punct	SpaceAfter=No
+29	эмиссионной	эмиссионный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	30:amod	_
+30	томографии	томография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	14:conj	_
+31	(	(	PUNCT	_	_	32	punct	32:punct	SpaceAfter=No
+32	ПЭТ	ПЭТ	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	appos	30:appos	SpaceAfter=No
+33	)	)	PUNCT	_	_	32	punct	32:punct	SpaceAfter=No
+34	.	.	PUNCT	_	_	7	punct	7:punct	_

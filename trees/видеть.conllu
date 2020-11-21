@@ -1,0 +1,210 @@
+# sent_id = uppsalaBitov_3.xml_266
+# text = Она его не видела…
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	4:nsubj	PBARG=4:PBArg_0
+2	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	obj	4:obj	PBARG=4:PBArg_1
+3	не	не	PART	_	_	4	advmod	4:advmod	_
+4	видела	видеть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|PBSENSE=видеть.1
+5	…	…	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = 2014Granin.xml_109
+# text = Я видел мертвецов в заснеженном трамвае, я сам туда зашел укрыться от ветра.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	2:nsubj	PBARG=2:PBArg_0
+2	видел	видеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	PBSENSE=видеть.1
+3	мертвецов	мертвец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	2:obj	PBARG=2:PBArg_1
+4	в	в	ADP	_	_	6	case	6:case	_
+5	заснеженном	заснеженный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	6:amod	_
+6	трамвае	трамвай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	2:obl	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	11:punct	_
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	11	nsubj	11:nsubj	_
+9	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	8:amod	_
+10	туда	туда	ADV	_	Degree=Pos	11	advmod	11:advmod	_
+11	зашел	зайти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	2:conj	_
+12	укрыться	укрыться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	11	xcomp	11:xcomp	_
+13	от	от	ADP	_	_	14	case	14:case	_
+14	ветра	ветер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	12:obl	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = 2014Vysota.xml_11
+# text = Когда рассвело, увидели, что у основания высоты находится деревня Панская.
+1	Когда	когда	SCONJ	_	_	2	mark	2:mark	_
+2	рассвело	рассвести	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	4:advcl	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	2:punct	_
+4	увидели	видеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|PBSENSE=видеть.1
+5	,	,	PUNCT	_	_	10	punct	10:punct	_
+6	что	что	SCONJ	_	_	10	mark	10:mark	_
+7	у	у	ADP	_	_	8	case	8:case	_
+8	основания	основание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	10:obl	_
+9	высоты	высота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	8:nmod	_
+10	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	ccomp	4:ccomp	PBARG=4:PBArg_1
+11	деревня	деревня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	10:nsubj	_
+12	Панская	Панская	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	appos	11:appos	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = 2005Stranitsy_voennoi_istorii.xml_7
+# text = Вглядываясь в прошлое, мы видим множество бушующих волн; они несутся, накладываются одна на другую, - и вот уже гигантское цунами обрушивается на миллионы беззащитных и мало что понимающих людей.
+1	Вглядываясь	вглядываться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	6	advcl	6:advcl	_
+2	в	в	ADP	_	_	3	case	3:case	_
+3	прошлое	прошлое	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obl	1:obl	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	1:punct	_
+5	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	6:nsubj	PBARG=6:PBArg_0
+6	видим	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	PBSENSE=видеть.1
+7	множество	множество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	6:obj	PBARG=6:PBArg_1
+8	бушующих	бушевать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	9:amod	_
+9	волн	волна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	7:nmod	SpaceAfter=No
+10	;	;	PUNCT	_	_	6	punct	6:punct	_
+11	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	12	nsubj	12:nsubj	_
+12	несутся	нестись	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	6:conj	SpaceAfter=No|PBARG=6:PBArg_2
+13	,	,	PUNCT	_	_	14	punct	14:punct	_
+14	накладываются	накладывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	conj	6:conj	PBARG=PBArg_2
+15	одна	один	DET	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	obl	14:obl	_
+16	на	на	ADP	_	_	15	fixed	15:fixed	_
+17	другую	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	fixed	15:fixed	SpaceAfter=No
+18	,	,	PUNCT	_	_	25	punct	25:punct	_
+19	-	-	PUNCT	_	_	25	punct	25:punct	_
+20	и	и	CCONJ	_	_	25	cc	25:cc	_
+21	вот	вот	PART	_	_	22	advmod	22:advmod	_
+22	уже	уже	ADV	_	Degree=Pos	25	advmod	25:advmod	_
+23	гигантское	гигантский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	24	amod	24:amod	_
+24	цунами	цунами	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj	25:nsubj	_
+25	обрушивается	обрушиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	6:conj	PBARG=6:PBArg_2
+26	на	на	ADP	_	_	27	case	27:case	_
+27	миллионы	миллион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	obl	25:obl	_
+28	беззащитных	беззащитный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	acl	33:acl	_
+29	и	и	CCONJ	_	_	32	cc	32:cc	_
+30	мало	мало	ADV	_	Degree=Pos	32	obj	32:obj	_
+31	что	что	PRON	_	Case=Acc	30	fixed	30:fixed	_
+32	понимающих	понимать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	28	conj	28:conj	_
+33	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	27:nmod	SpaceAfter=No
+34	.	.	PUNCT	_	_	6	punct	6:punct	_
+
+# sent_id = 2006Rentgen.xml_49
+# text = Кроме того, и МРТ, и рентгеновские методы исследования не дают возможности увидеть кровоток - на снимках видны только изображения стенок сосудов.
+1	Кроме	кроме	ADP	_	_	2	case	2:case	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	parataxis	12:parataxis	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	2:punct	_
+4	и	и	CCONJ	_	_	5	cc	5:cc	_
+5	МРТ	мрт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	12:nsubj	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	9:punct	_
+7	и	и	CCONJ	_	_	9	cc	9:cc	_
+8	рентгеновские	рентгеновский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	9:amod	_
+9	методы	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	conj	5:conj	_
+10	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	9:nmod	_
+11	не	не	PART	_	_	12	advmod	12:advmod	_
+12	дают	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+13	возможности	возможность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	iobj	12:iobj	PBARG=14:PBArg_0
+14	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	obl	13:obl	PBSENSE=видеть.1
+15	кровоток	кровоток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	14:obj	PBARG=14:PBArg_1
+16	-	-	PUNCT	_	_	19	punct	19:punct	_
+17	на	на	ADP	_	_	18	case	18:case	_
+18	снимках	снимок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	obl	19:obl	_
+19	видны	видный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	15	parataxis	15:parataxis	PBARG=14:PBArg_2
+20	только	только	PART	_	_	21	advmod	21:advmod	_
+21	изображения	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	19	nsubj	19:nsubj	_
+22	стенок	стенка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	21:nmod	_
+23	сосудов	сосуд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	22:nmod	SpaceAfter=No
+24	.	.	PUNCT	_	_	12	punct	12:punct	_
+
+# sent_id = 2011Pri_popustitelstve_robotov.xml_64
+# text = Вбив в адресной строке вашего Firefox'а фразу about:robots, вы узнаете, что "роботы видели то, во что вы, люди, никогда не поверите".
+1	Вбив	вбить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	11:advcl	_
+2	в	в	ADP	_	_	4	case	4:case	_
+3	адресной	адресный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	4:amod	_
+4	строке	строка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	1:obl	_
+5	вашего	ваш	DET	_	Case=Gen|Gender=Masc|Number=Sing	6	det	6:det	_
+6	Firefox'а	файрфокс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	4:nmod	_
+7	фразу	фраза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	1:obj	_
+8	about:robots	about.robots	X	_	Foreign=Yes	7	flat:foreign	7:flat:foreign	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	1:punct	_
+10	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	11	nsubj	11:nsubj	_
+11	узнаете	узнавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	16:punct	_
+13	что	что	SCONJ	_	_	16	mark	16:mark	_
+14	"	"	PUNCT	_	_	16	punct	16:punct	SpaceAfter=No
+15	роботы	робот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	16:nsubj	PBARG=16:PBArg_0
+16	видели	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	ccomp	11:ccomp	PBSENSE=видеть.1
+17	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	16:obj	SpaceAfter=No|PBARG=16:PBArg_1
+18	,	,	PUNCT	_	_	27	punct	27:punct	_
+19	во	в	ADP	_	_	20	case	20:case	_
+20	что	что	PRON	_	Case=Acc	27	obl	27:obl	_
+21	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	27	nsubj	27:nsubj	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	23:punct	_
+23	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	appos	21:appos	SpaceAfter=No
+24	,	,	PUNCT	_	_	21	punct	21:punct	_
+25	никогда	никогда	ADV	_	Degree=Pos	27	advmod	27:advmod	_
+26	не	не	PART	_	_	27	advmod	27:advmod	_
+27	поверите	поверить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	17	acl	17:acl	SpaceAfter=No
+28	"	"	PUNCT	_	_	16	punct	16:punct	SpaceAfter=No
+29	.	.	PUNCT	_	_	11	punct	11:punct	_
+
+# sent_id = 2005Mamleev_Charli.xml_552
+# text = Крэк почему-то ожидал увидеть внутри женщину - супругу Чарли или его сестру.
+1	Крэк	Крэк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj	PBARG=4:PBArg_0
+2	почему-то	почему-то	ADV	_	Degree=Pos	3	advmod	3:advmod	_
+3	ожидал	ожидать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	3:xcomp	PBSENSE=видеть.1
+5	внутри	внутри	ADV	_	Degree=Pos	4	advmod	4:advmod	_
+6	женщину	женщина	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	4	obj	4:obj	PBARG=4:PBArg_1
+7	-	-	PUNCT	_	_	8	punct	8:punct	_
+8	супругу	супруга	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	6	parataxis	6:parataxis	PBARG=4:PBArg_2
+9	Чарли	Чарли	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	8:nmod	_
+10	или	или	CCONJ	_	_	12	cc	12:cc	_
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	12:nmod	_
+12	сестру	сестра	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	8	conj	8:conj	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = uppsalaGrekova_3.xml_107
+# text = Я, например, никогда не видела таких синих голубей.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	7	nsubj	7:nsubj	SpaceAfter=No|PBARG=7:PBArg_0
+2	,	,	PUNCT	_	_	1	punct	1:punct	_
+3	например	например	ADV	_	Degree=Pos	7	parataxis	7:parataxis	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	3:punct	_
+5	никогда	никогда	ADV	_	Degree=Pos	7	advmod	7:advmod	_
+6	не	не	PART	_	_	7	advmod	7:advmod	_
+7	видела	видеть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	PBSENSE=видеть.1
+8	таких	такой	DET	_	Case=Gen|Number=Plur	10	det	10:det	_
+9	синих	синий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	10:amod	_
+10	голубей	голубь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	obl	7:obl	SpaceAfter=No|PBARG=7:PBArg_1
+11	.	.	PUNCT	_	_	7	punct	7:punct	_
+
+# sent_id = 2005Yakovlev.xml_51
+# text = Высшие структуры управления оставались старыми и видели проблемы по-старому.
+1	Высшие	высший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	2:amod	_
+2	структуры	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	4:nsubj	PBARG=7:PBArg_0
+3	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	2:nmod	_
+4	оставались	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	0:root	_
+5	старыми	старый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	obl	4:obl	_
+6	и	и	CCONJ	_	_	7	cc	7:cc	_
+7	видели	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	4:conj	PBSENSE=видеть.1
+8	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	7:obj	PBARG=7:PBArg_1
+9	по-старому	по-старому	ADV	_	Degree=Pos	7	advmod	7:advmod	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = 2014Chto_budet_posle.xml_228
+# text = Поскольку, как мы это видим, наблюдая многих людей творческих профессий, творческий труд содержит вознаграждение в самом себе, заниматься им - удовольствие.
+1	Поскольку	поскольку	SCONJ	_	_	16	mark	16:mark	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	1:punct	_
+3	как	как	SCONJ	_	_	6	mark	6:mark	_
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	6:nsubj	PBARG=6:PBArg_0
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	6:obj	PBARG=6:PBArg_1
+6	видим	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	16:parataxis	SpaceAfter=No|PBSENSE=видеть.1
+7	,	,	PUNCT	_	_	8	punct	8:punct	_
+8	наблюдая	наблюдать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	6:advcl	_
+9	многих	много	NUM	_	_	10	amod	10:amod	_
+10	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obj	8:obj	_
+11	творческих	творческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	12:amod	_
+12	профессий	профессия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	10:nmod	SpaceAfter=No
+13	,	,	PUNCT	_	_	8	punct	8:punct	_
+14	творческий	творческий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	15:amod	_
+15	труд	труд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	16:nsubj	_
+16	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	22:advcl	PBARG=6:PBArg_2
+17	вознаграждение	вознаграждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	16:obj	_
+18	в	в	ADP	_	_	20	case	20:case	_
+19	самом	сам	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	20:amod	_
+20	себе	себя	PRON	_	Case=Loc	16	obl	16:obl	SpaceAfter=No
+21	,	,	PUNCT	_	_	16	punct	16:punct	_
+22	заниматься	заниматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	25	csubj	25:csubj	_
+23	им	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	22	obl	22:obl	_
+24	-	-	PUNCT	_	_	22	punct	22:punct	_
+25	удовольствие	удовольствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	0:root	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	25:punct	_
+
