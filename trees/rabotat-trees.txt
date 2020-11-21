@@ -15,10 +15,10 @@
 13	картель	картель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
 14	,	,	PUNCT	_	_	19	punct	19:punct	_
 15	а	а	CCONJ	_	_	19	cc	19:cc	_
-16	картели	картель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	19:nsubj	_
+16	картели	картель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	19:nsubj	PBARG=19:PBArg_0
 17	обычно	обычно	ADV	_	Degree=Pos	19	advmod	19:advmod	_
 18	плохо	плохо	ADV	_	Degree=Pos	19	advmod	19:advmod	_
-19	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	13:conj	SpaceAfter=No
+19	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	13:conj	SpaceAfter=No|PBSENSE=работать.1
 20	"	"	PUNCT	_	_	13	punct	13:punct	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	23:punct	_
 22	-	-	PUNCT	_	_	23	punct	23:punct	_
@@ -41,11 +41,11 @@
 2	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	parataxis	13:parataxis	_
 3	интернационального	интернациональный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	4:amod	_
 4	коллектива	коллектив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	2:nmod	_
-5	лингвистов	лингвист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	4:nmod	SpaceAfter=No
+5	лингвистов	лингвист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	4:nmod	SpaceAfter=No|PBARG=7:PBArg_0
 6	,	,	PUNCT	_	_	7	punct	7:punct	_
-7	работавших	работать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	5	acl	5:acl	_
+7	работавших	работать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	5	acl	5:acl	PBSENSE=работать.1
 8	над	над	ADP	_	_	9	case	9:case	_
-9	отчетом	отчет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	7:obl	SpaceAfter=No
+9	отчетом	отчет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	7:obl	SpaceAfter=No|PBARG=7:PBArg_1
 10	,	,	PUNCT	_	_	7	punct	7:punct	_
 11	угроза	угроза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	13:nsubj	_
 12	исчезновения	исчезновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	11:nmod	_
@@ -62,10 +62,10 @@
 # sent_id = 2006Vse_vozrastu_pokorny.xml_58
 # text = Если вы работаете в науке и вам не более 35 лет, то вполне можете рассчитывать на получение специальных молодежных грантов на исследования.
 1	Если	если	SCONJ	_	_	3	mark	3:mark	_
-2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	3	nsubj	3:nsubj	_
-3	работаете	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	3	nsubj	3:nsubj	PBARG=3:PBArg_0
+3	работаете	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	PBSENSE=работать.1
 4	в	в	ADP	_	_	5	case	5:case	_
-5	науке	наука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	3:obl	_
+5	науке	наука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	3:obl	PBARG=3:PBArg_2
 6	и	и	CCONJ	_	_	9	cc	9:cc	_
 7	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	11	iobj	11:iobj	_
 8	не	не	PART	_	_	9	advmod	9:advmod	_
@@ -93,14 +93,14 @@
 3	провинции	провинция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	4:obl	_
 4	воспитывают	воспитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	отличных	отличный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	6	amod	6:amod	_
-6	специалистов	специалист	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	4:obj	SpaceAfter=No
+6	специалистов	специалист	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	4:obj	SpaceAfter=No|PBARG=10:PBArg_0
 7	,	,	PUNCT	_	_	9	punct	9:punct	_
 8	которые	который	PRON	_	Case=Nom	9	nsubj	9:nsubj	_
 9	готовы	готовый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	6	acl:relcl	6:acl	_
-10	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	9:xcomp	_
+10	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	9:xcomp	PBSENSE=работать.1
 11	за	за	ADP	_	_	13	case	13:case	_
 12	меньшие	меньший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	13:amod	_
-13	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obl	10:obl	SpaceAfter=No
+13	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obl	10:obl	SpaceAfter=No|PBARG=10:PBArg_2
 14	,	,	PUNCT	_	_	16	punct	16:punct	_
 15	нежели	нежели	SCONJ	_	_	16	mark	16:mark	_
 16	москвичи	москвич	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	obl	12:obl	SpaceAfter=No
@@ -110,9 +110,9 @@
 # text = А для этого надо работать.
 1	А	а	CCONJ	_	_	4	cc	4:cc	_
 2	для	для	ADP	_	_	3	case	3:case	_
-3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	4:obl	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	4:obl	PBARG=5:PBArg_2
 4	надо	надо	ADV	_	Degree=Pos	0	root	0:root	_
-5	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	csubj	4:csubj	SpaceAfter=No
+5	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	csubj	4:csubj	SpaceAfter=No|PBSENSE=работать.1
 6	.	.	PUNCT	_	_	4	punct	4:punct	_
 
 # sent_id = 2009Nalogovaya_sistema.xml_46
@@ -130,8 +130,8 @@
 11	которые	который	PRON	_	Case=Acc	13	obj	13:obj	_
 12	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	9	acl:relcl	9:acl:relcl	_
 13	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	12:xcomp	_
-14	работающий	работать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	15:amod	_
-15	гражданин	гражданин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	12:nsubj	SpaceAfter=No
+14	работающий	работать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	15:amod	PBSENSE=работать.1
+15	гражданин	гражданин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	12:nsubj	SpaceAfter=No|PBARG=14:PBArg_0
 16	,	,	PUNCT	_	_	19	punct	19:punct	_
 17	например	например	ADV	_	Degree=Pos	19	obl	19:obl	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	17:punct	_
@@ -157,10 +157,10 @@
 7	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	13	obl	13:obl	_
 8	над	над	ADP	_	_	10	case	10:case	_
 9	вторым	второй	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	10:amod	_
-10	панно	панно	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	13:obl	_
-11	никто	никто	PRON	_	Case=Nom	13	nsubj	13:nsubj	_
+10	панно	панно	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	13:obl	PBARG=13:PBArg_1
+11	никто	никто	PRON	_	Case=Nom	13	nsubj	13:nsubj	PBARG=13:PBArg_0
 12	не	не	PART	_	_	13	advmod	13:advmod	_
-13	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	4:parataxis	_
+13	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	4:parataxis	PBSENSE=работать.1
 14	и	и	CCONJ	_	_	17	cc	17:cc	_
 15	ничем	ничто	PRON	_	Case=Ins	17	obl	17:obl	_
 16	не	не	PART	_	_	17	advmod	17:advmod	_
@@ -176,13 +176,13 @@
 5	вернули	вернуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	всех	весь	DET	_	Case=Acc|Number=Plur	8	det	8:det	_
 7	английских	английский	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	8	amod	8:amod	_
-8	ученых	ученый	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	5:obj	SpaceAfter=No
+8	ученых	ученый	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	5:obj	SpaceAfter=No|PBARG=10:PBArg_0
 9	,	,	PUNCT	_	_	10	punct	10:punct	_
-10	работавших	работать	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	acl	8:acl	_
+10	работавших	работать	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	acl	8:acl	PBSENSE=работать.1
 11	в	в	ADP	_	_	14	case	14:case	_
 12	"	"	PUNCT	_	_	14	punct	14:punct	SpaceAfter=No
 13	манхэттенском	манхэттенский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	14:amod	_
-14	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	10:obl	SpaceAfter=No
+14	проекте	проект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	10:obl	SpaceAfter=No|PBARG=10:PBArg_2
 15	"	"	PUNCT	_	_	14	punct	14:punct	SpaceAfter=No
 16	,	,	PUNCT	_	_	10	punct	10:punct	_
 17	обратно	обратно	ADV	_	Degree=Pos	19	obl	19:obl	_
@@ -208,11 +208,11 @@
 3	,	,	PUNCT	_	_	7	punct	7:punct	_
 4	насколько	насколько	ADV	_	Degree=Pos	7	obl	7:obl	_
 5	для	для	ADP	_	_	6	case	6:case	_
-6	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	7	obl	7:obl	_
+6	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	7	obl	7:obl	PBARG=8:PBArg_2
 7	непродуктивно	непродуктивный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	obl	2:obl	_
-8	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	csubj	7:csubj	_
+8	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	csubj	7:csubj	PBSENSE=работать.1
 9	по	по	ADP	_	_	10	case	10:case	_
-10	заказу	заказ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	8:obl	SpaceAfter=No
+10	заказу	заказ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	8:obl	SpaceAfter=No|PBARG=8:PBArg_1
 11	,	,	PUNCT	_	_	15	punct	15:punct	_
 12	а	а	CCONJ	_	_	15	cc	15:cc	_
 13	не	не	PART	_	_	15	advmod	15:advmod	_
@@ -226,10 +226,10 @@
 2	почему	почему	ADV	_	Degree=Pos	9	advmod	9:advmod	_
 3	же	же	PART	_	_	2	advmod	2:advmod	_
 4	тогда	тогда	ADV	_	Degree=Pos	9	advmod	9:advmod	_
-5	заморозка	заморозка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	9:nsubj	_
+5	заморозка	заморозка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	9:nsubj	PBARG=9:PBArg_0
 6	у	у	ADP	_	_	7	case	7:case	_
-7	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	9	obl	9:obl	_
+7	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	9	obl	9:obl	PBARG=PBArg_1
 8	не	не	PART	_	_	9	advmod	9:advmod	_
-9	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+9	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|PBSENSE=работать.2
 10	?	?	PUNCT	_	_	9	punct	9:punct	_
 
