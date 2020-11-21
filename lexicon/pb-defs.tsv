@@ -7,4 +7,7 @@ base	number	description	note	description_ru	note_ru	link_original	link_wordnet	b
 получить	3	get, extract, produce, manufacture	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
 получить	4	succeed, happen	получиться.04	NULL	NULL	NULL	NULL	NULL	NULL	NULL
 получить	5	turn out (to be)	получиться.05	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-
+говорить	1	speak, say, talk	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+говорить	2	accuse, tattle	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+говорить	3	reveal	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+говорить	4	(not) want to speak	говориться.04	NULL	NULL	NULL	NULL	NULL	NULL	NULL
