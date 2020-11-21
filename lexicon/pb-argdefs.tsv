@@ -1,4 +1,21 @@
 base	number	argnum	definition	note	definition_ru	note_ru
+видеть	1	0	viewer	NULL	NULL	NULL
+видеть	1	1	thing viewed	NULL	NULL	NULL
+видеть	1	2	attribute of arg1, further description; viewed as	NULL	NULL	NULL
+видеть	2	0	first entity	NULL	NULL	NULL
+видеть	2	1	second entity, or 'each other' (or variant)	NULL	NULL	NULL
+видеть	3	0	you	NULL	NULL	NULL
+говорить	1	0	sayer	NULL	NULL	NULL
+говорить	1	1	utterance	NULL	NULL	NULL
+говорить	1	2	hearer	NULL	NULL	NULL
+говорить	1	3	attributive, language	NULL	NULL	NULL
+говорить	2	0	accuser	NULL	NULL	NULL
+говорить	2	1	crime	NULL	NULL	NULL
+говорить	2	2	accused	NULL	NULL	NULL
+говорить	3	0	speaker, revealer	NULL	NULL	NULL
+говорить	3	1	utterance, truth condition	NULL	NULL	NULL
+говорить	3	2	entity possessing or demonstrating arg0	NULL	NULL	NULL
+говорить	4	1	entity (not) wanting to speak	получитьсяю04	NULL	NULL
 делать	1	0	agent, doer	NULL	деятель	NULL
 делать	1	1	thing done	NULL	сделанная вещь	NULL
 делать	1	2	benefactive, done for or about	NULL	NULL	NULL
@@ -26,22 +43,6 @@ base	number	argnum	definition	note	definition_ru	note_ru
 получить	4	2	benefactive	получиться.04	NULL	NULL
 получить	5	1	thing seeming, changing	получиться.05	NULL	NULL
 получить	5	2	attribute	получиться.05	NULL	NULL
-говорить	1	0	sayer	NULL	NULL	NULL
-говорить	1	1	utterance	NULL	NULL	NULL
-говорить	1	2	hearer	NULL	NULL	NULL
-говорить	1	3	attributive, language	NULL	NULL	NULL
-говорить	2	0	accuser	NULL	NULL	NULL
-говорить	2	1	crime	NULL	NULL	NULL
-говорить	2	2	accused	NULL	NULL	NULL
-говорить	3	0	speaker, revealer	NULL	NULL	NULL
-говорить	3	1	utterance, truth condition	NULl	NULL	NULL
-говорить	3	2	entity possessing or demonstrating arg0	NULL	NULL	NULL
-говорить	4	1	entity (not) wanting to speak	получитьсяю04	NULL	NULL
-видеть	1	0	viewer	NULL	NULL	NULL
-видеть	1	1	thing viewed	NULL	NULL	NULL
-видеть	1	2	attribute of arg1, further description; viewed as	NULL	NULL	NULL
-видеть	2	0	first entity	NULL	NULL	NULL
-видеть	2	1	second entity, or 'each other' (or variant)	NULL	NULL	NULL
-видеть	3	0	you	NULL	NULL	NULL
+
 
 
