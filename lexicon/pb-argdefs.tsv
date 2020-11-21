@@ -15,7 +15,7 @@ base	number	argnum	definition	note	definition_ru	note_ru
 говорить	3	0	speaker, revealer	NULL	NULL	NULL
 говорить	3	1	utterance, truth condition	NULL	NULL	NULL
 говорить	3	2	entity possessing or demonstrating arg0	NULL	NULL	NULL
-говорить	4	1	entity (not) wanting to speak	получитьсяю04	NULL	NULL
+говорить	4	1	entity (not) wanting to speak	говориться.04	NULL	NULL
 делать	1	0	agent, doer	NULL	деятель	NULL
 делать	1	1	thing done	NULL	сделанная вещь	NULL
 делать	1	2	benefactive, done for or about	NULL	NULL	NULL
@@ -43,6 +43,24 @@ base	number	argnum	definition	note	definition_ru	note_ru
 получить	4	2	benefactive	получиться.04	NULL	NULL
 получить	5	1	thing seeming, changing	получиться.05	NULL	NULL
 получить	5	2	attribute	получиться.05	NULL	NULL
+работать	1	0	worker	NULL	NULL	NULL	
+работать	1	1	job, project	NULL	NULL	NULL
+работать	1	2	employer, benefactive	NULL	NULL	NULL
+работать	1	3	coworker	NULL	NULL	NULL
+работать	1	4	instrumental, predicative job	NULL	NULL	NULL
+работать	1	5	secondary-theme	NULL	NULL	NULL
+работать	2	0	thing functioning	NULL	NULL	NULL
+работать	2	1	beneficiary	NULL	NULL	NULL
+работать	3	0	person/entity working something	NULL	NULL	NULL
+работать	3	1	thing undergoing change of state, unselected object of work	NULL	NULL	NULL
+работать	3	2	end result of thing worked, arg1	NULL	NULL	NULL
+работать	3	3	instrument	NULL	NULL	NULL
+работать	4	0	causer	NULL	NULL	NULL
+работать	4	1	thing functioning	NULL	NULL	NULL
+работать	5	1	how it works, middle voice	работаться.05	NULL	NULL
+работать	5	2	worker, one affected by desire/feeling about work	работаться.05	NULL	NULL
+
+
 
 
 

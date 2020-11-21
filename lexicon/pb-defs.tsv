@@ -14,3 +14,8 @@ base	number	description	note	description_ru	note_ru	link_original	link_wordnet	b
 получить	3	get, extract, produce, manufacture	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
 получить	4	succeed, happen	получиться.04	NULL	NULL	NULL	NULL	NULL	NULL	NULL
 получить	5	turn out (to be)	получиться.05	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+работать	1	work, being employed, acts, deeds (no physical parts or gov't departments!)	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+работать	2	function, operate	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+работать	3	resultative construction	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+работать	4	function, operate	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+работать	5	want to work	работаться.05	NULL	NULL	NULL	NULL	NULL	NULL	NULL
