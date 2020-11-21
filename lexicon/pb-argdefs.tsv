@@ -43,7 +43,7 @@ base	number	argnum	definition	note	definition_ru	note_ru
 получить	4	2	benefactive	получиться.04	NULL	NULL
 получить	5	1	thing seeming, changing	получиться.05	NULL	NULL
 получить	5	2	attribute	получиться.05	NULL	NULL
-работать	1	0	worker	NULL	NULL	NULL	
+работать	1	0	worker	NULL	NULL	NULL
 работать	1	1	job, project	NULL	NULL	NULL
 работать	1	2	employer, benefactive	NULL	NULL	NULL
 работать	1	3	coworker	NULL	NULL	NULL
