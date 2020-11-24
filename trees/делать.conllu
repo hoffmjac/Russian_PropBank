@@ -121,7 +121,7 @@
 5	пальмовых	пальмовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	6:amod	_
 6	волокон	волокно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	obl	2:obl	PBARG=2:PBArg_2
 7	и	и	CCONJ	_	_	8	cc	8:cc	_
-8	перьев	перо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	conj	6:conj	PBARG=2:PBArg_2
+8	перьев	перо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	conj	6:conj	_
 9	райской	райский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	10:amod	_
 10	птицы	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	8	nmod	8:nmod	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	2:punct	_
