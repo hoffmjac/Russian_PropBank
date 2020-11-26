@@ -138,7 +138,7 @@
 
 # sent_id = 2005Mamleev_Charli.xml_552
 # text = Крэк почему-то ожидал увидеть внутри женщину - супругу Чарли или его сестру.
-1	Крэк	Крэк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj	PBARG=4:PBArg_0
+1	Крэк	Крэк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj	_
 2	почему-то	почему-то	ADV	_	Degree=Pos	3	advmod	3:advmod	_
 3	ожидал	ожидать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	3:xcomp	PBSENSE=видеть.1

@@ -53,7 +53,7 @@
 4	у	у	ADP	_	_	5	case	5:case	_
 5	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	6	obl	6:obl	_
 6	появилась	появиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	0:root	_
-7	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	PBARG=8:PBArg_0
+7	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	_
 8	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	obl	7:obl	PBSENSE=получить.3
 9	металлы	металл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	8:obj	PBARG=8:PBArg_1
 10	особой	особый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	11:amod	_
@@ -103,7 +103,7 @@
 
 # sent_id = 2006Rentgen.xml_31
 # text = Измерение эффекта Допплера сделало возможным не только получить изображение кровотока в сосудах, но и оценить состояние сосудистой стенки.
-1	Измерение	измерение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	4:nsubj	PBARG=4:PBArg_0
+1	Измерение	измерение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	4:nsubj	_
 2	эффекта	эффект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	1:nmod	_
 3	Допплера	Допплер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	2:nmod	_
 4	сделало	делать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	PBSENSE=делать.3
@@ -131,7 +131,7 @@
 3	из	из	ADP	_	_	5	case	5:case	_
 4	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	5:amod	_
 5	рук	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	obl	1:obl	PBARG=1:PBArg_2
-6	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	9	iobj	9:iobj	PBARG=1:PBArg_0
+6	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	9	iobj	9:iobj	_
 7	пока	пока	ADV	_	Degree=Pos	9	advmod	9:advmod	_
 8	не	не	PART	_	_	9	advmod	9:advmod	_
 9	удалось	удаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	0:root	SpaceAfter=No
@@ -174,7 +174,7 @@
 1	Для	для	ADP	_	_	2	case	2:case	_
 2	возобновления	возобновление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	6:obl	_
 3	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	2:nmod	_
-4	управляющие	управлять	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	5:amod	PBARG=7:PBArg_0
+4	управляющие	управлять	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	5:amod	_
 5	верфи	верфь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	6:nsubj	_
 6	пытаются	пытаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	0:root	_
 7	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	6:xcomp	PBSENSE=получить.1
@@ -197,13 +197,13 @@
 8	получат	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	PBSENSE=получить.1
 9	Киев	Киев	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	8:nsubj	SpaceAfter=No|PBARG=8:PBArg_0
 10	,	,	PUNCT	_	_	11	punct	11:punct	_
-11	Ташкент	Ташкент	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	9:conj	SpaceAfter=No|PBARG=8:PBArg_0
+11	Ташкент	Ташкент	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	9:conj	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	13:punct	_
-13	Сочи	Сочи	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	9:conj	SpaceAfter=No|PBARG=8:PBArg_0
+13	Сочи	Сочи	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	9:conj	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	15:punct	_
-15	Омск	Омск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	9:conj	SpaceAfter=No|PBARG=8:PBArg_0
+15	Омск	Омск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	9:conj	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	17:punct	_
-17	Новосибирск	Новосибирск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	9:conj	SpaceAfter=No|PBARG=8:PBArg_0
+17	Новосибирск	Новосибирск	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	9:conj	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	21:punct	_
 19	несмотря	несмотря	ADV	_	Polarity=Neg	21	case	21:case	_
 20	на	на	ADP	_	_	19	fixed	19:fixed	_

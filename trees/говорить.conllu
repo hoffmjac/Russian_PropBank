@@ -26,7 +26,7 @@
 2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	3:obl	PBARG=3:PBArg_3
 3	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	PBSENSE=говорить.1
 4	в	в	ADP	_	_	5	case	5:case	_
-5	сообщении	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	3:obl	PBARG=3:PBArg_0
+5	сообщении	сообщение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	3:obl	_
 6	государственного	государственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	9:amod	_
 7	и	и	CCONJ	_	_	8	cc	8:cc	_
 8	военного	военный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	conj	6:conj	_
@@ -141,7 +141,7 @@
 # text = Однако в заявлении также говорится, что запрет не распространяется на людей, сопровождающих гуманитарные грузы.
 1	Однако	однако	ADV	_	Degree=Pos	5	advmod	5:advmod	_
 2	в	в	ADP	_	_	3	case	3:case	_
-3	заявлении	заявление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	5:obl	PBARG=5:PBArg_0
+3	заявлении	заявление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	5:obl	_
 4	также	также	ADV	_	Degree=Pos	5	advmod	5:advmod	_
 5	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	SpaceAfter=No|PBSENSE=говорить.1
 6	,	,	PUNCT	_	_	10	punct	10:punct	_
@@ -172,7 +172,7 @@
 1	В	в	ADP	_	_	4	case	4:case	_
 2	распространенном	распространить	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	4:acl	_
 3	KWS	KWS	PROPN	_	Foreign=Yes	2	flat:foreign	2:flat:foreign	_
-4	заявлении	заявление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	5:obl	PBARG=5:PBArg_0
+4	заявлении	заявление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	5:obl	_
 5	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	SpaceAfter=No|PBSENSE=говорить.1
 6	,	,	PUNCT	_	_	13	punct	13:punct	_
 7	что	что	SCONJ	_	_	13	mark	13:mark	_
