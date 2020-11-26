@@ -1,21 +1,22 @@
 base	number	description	note	description_ru	note_ru	link_original	link_wordnet	backtrack	synset_id	import_id
-видеть	1	see; perceive by sight, understanding, or experience	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-видеть	2	see, meet, date	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-видеть	3	discourse function	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-говорить	1	speak, say, talk	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-говорить	2	accuse, tattle	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-говорить	3	reveal	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+видеть	1	see; perceive by sight, understanding, or experience	NULL	NULL	NULL	see.01	1,2,4,5,6	NULL	NULL	NULL
+видеть	2	see, meet, date	NULL	NULL	NULL	see.05	3	NULL	NULL	NULL
+видеть	3	discourse function	NULL	NULL	NULL	see.03	7,8	NULL	NULL	NULL
+говорить	1	speak, say, talk	NULL	NULL	NULL	say.01	1,2,3,4,5,8,9	NULL	NULL	NULL
+говорить	2	accuse, tattle	NULL	NULL	NULL	accuse.01	NULL	NULL	NULL	NULL
+говорить	3	reveal	NULL	NULL	NULL	reveal.01	6,7	NULL	NULL	NULL
 говорить	4	(not) want to speak	говориться.04	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-делать	1	Act	NULL	действовать	NULL	NULL	NULL	NULL	NULL	NULL
-делать	2	Make	NULL	изготовлять	NULL	NULL	NULL	NULL	NULL	NULL
-делать	3	Change state	NULL	изменить состояние	NULL	NULL	NULL	NULL	NULL	NULL
-получить	1	get, receive	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-получить	2	get hit/punched/punished	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-получить	3	get, extract, produce, manufacture	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-получить	4	succeed, happen	получиться.04	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-получить	5	turn out (to be)	получиться.05	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-работать	1	work, being employed, acts, deeds (no physical parts or gov't departments!)	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-работать	2	function, operate	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-работать	3	resultative construction	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-работать	4	function, operate	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL
-работать	5	want to work	работаться.05	NULL	NULL	NULL	NULL	NULL	NULL	NULL
+делать	1	act	NULL	действовать	NULL	do.02	1,2,3,5,10	NULL	NULL	NULL
+делать	2	make	NULL	изготовлять	NULL	NULL	4,6,7,8,9	NULL	NULL	NULL
+делать	3	change state	NULL	изменить состояние	NULL	NULL	NULL	NULL	NULL	NULL
+делать	4	choose a role model	делать_жизнь-м	NULL	NULL	NULL	NULL	NULL	NULL	NULL 
+получить	1	get, receive	NULL	NULL	NULL	get.01	1,2,3,5	NULL	NULL	NULL
+получить	2	get hit/punched/punished	NULL	NULL	NULL	injure.01	4,7	NULL	NULL	NULL
+получить	3	get, extract, produce, manufacture	NULL	NULL	NULL	extract.01	6	NULL	NULL	NULL
+получить	4	succeed, happen	получиться.04	NULL	NULL	succeed.01	NULL	NULL	NULL	NULL
+получить	5	turn out (to be)	получиться.05	NULL	NULL	turn_out.11	NULL	NULL	NULL	NULL
+работать	1	work, being employed, acts, deeds (no physical parts or gov't departments!)	NULL	NULL	NULL	NULL	1	NULL	NULL	NULL
+работать	2	function, operate	NULL	NULL	NULL	work.09	6	NULL	NULL	NULL
+работать	3	resultative construction	NULL	NULL	NULL	work.10	2,3,4	NULL	NULL	NULL
+работать	4	function, operate	NULL	NULL	NULL	work.09	5	NULL	NULL	NULL
+работать	5	want to work	работаться.05	NULL	NULL	NULL	7	NULL	NULL	NULL

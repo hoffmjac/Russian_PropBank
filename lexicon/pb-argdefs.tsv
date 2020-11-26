@@ -27,6 +27,8 @@ base	number	argnum	definition	note	definition_ru	note_ru
 делать	3	0	agent, doer	NULL	NULL	NULL
 делать	3	1	entity changed	NULL	NULL	NULL
 делать	3	2	end state	NULL	NULL	NULL
+делать	4	0	follower	NULL	NULL	NULL
+делать	4	1	role model	NULL	NULL	NULL
 получить	1	0	reciever	NULL	NULL	NULL
 получить	1	1	thing gotten	NULL	NULL	NULL
 получить	1	2	giver	NULL	NULL	NULL
